@@ -1,0 +1,104 @@
+/* Resetting defaults */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Base styles */
+html {
+  background-color: #eeeeee;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+}
+
+/* Heading and paragraph styles */
+h1,
+p {
+  text-align: left;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.titulo-subtitulo {
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+.subtitulo,
+.description-title {
+  font-family: Merriweather, Georgia, ui-serif, serif;
+  margin-top: 0;
+  color: rgb(75, 73, 67);
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+.description-title {
+}
+
+.art-description {
+  margin-bottom: 200px;
+  margin-top: 40px;
+}
+
+/* Canvas styles */
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+#canvasp {
+  overflow-x: auto;
+  width: 100vw;
+}
+
+/* Art description */
+#artDescription {
+  font-family: Merriweather, Georgia, ui-serif, serif;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#artDescription .text-paragraph {
+  font-size: 21px;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  line-height: 1.8;
+  white-space: normal;
+}
+
+/* Media query */
+@media only screen {
+  body {
+    color: rgb(55, 53, 47);
+  }
+}
+
+/* Additional properties */
+p {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
+  max-width: 800px;
+}
+.static {
+  display: block;
+  float: none;
+  position: static;
+  z-index: auto;
+}
